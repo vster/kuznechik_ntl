@@ -408,6 +408,8 @@ void DecryptKuz( byte EncData[BS], byte DecData[BS] )
 		 DecData[i] = Block[i];
 }
 
+// test comment
+
 int main()
 {
 	byte OpenData[BS] =
