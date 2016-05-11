@@ -62,6 +62,7 @@ GF2X GF2XFromZZ( const ZZ &n )
 	GF2XFromBytes(x, buf, MAXB);
 	return x;
 }
+
 /*
 void ZZFromGF2X ( ZZ &n, GF2X &x )
 {
