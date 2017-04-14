@@ -7,12 +7,9 @@ SOURCES += \
     kuznechik-bm.cpp \
     util.cpp
 
-HEADERS += \
-    util.h
-
 LIBS += \
     -L/usr/local/lib -lntl \
     -lgmp
 
-HEADERS += \
-    util.h
+INCLUDEPATH += \
+    ../include
