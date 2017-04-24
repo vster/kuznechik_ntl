@@ -12,3 +12,5 @@ INCLUDEPATH += \
 
 LIBS += \
     -L../../lib -lntl
+
+HEADERS +=
