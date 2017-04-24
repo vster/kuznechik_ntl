@@ -8,13 +8,12 @@ SOURCES += \
     main.cpp \
     util.cpp
 
-INCLUDEPATH += \
-    ../include
-
 HEADERS += \
     kuznechik.h
 
+INCLUDEPATH += \
+    ../../include ../include
+
 LIBS += \
-    -L/usr/local/lib -lntl \
-    -lgmp
+    -L../../lib -lntl
 

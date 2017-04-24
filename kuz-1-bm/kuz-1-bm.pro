@@ -7,10 +7,8 @@ SOURCES += \
     kuznechik_bm.cpp \
     util.cpp
 
-LIBS += \
-    -L/usr/local/lib -lntl \
-    -lgmp
-
 INCLUDEPATH += \
-    /usr/local/include \
-    ../include
+    ../../include ../include
+
+LIBS += \
+    -L../../lib -lntl
