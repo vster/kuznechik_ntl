@@ -1,9 +1,9 @@
 #include <string.h>
 #include <iostream>
+#define byte unsigned char
 
 using namespace std;
 
-typedef unsigned char byte;
 typedef unsigned short u16bit;
 typedef unsigned int u32bit;
 typedef unsigned long long u64bit;
